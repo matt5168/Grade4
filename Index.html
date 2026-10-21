@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英語單字互動教學</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>英語互動學習網</h1>
+
+    <div class="settings-panel">
+      <div class="setting-group">
+        <label class="setting-item">語音引擎：
+          <select id="tts-engine-select">
+            <option value="local">內建語音 (免費/快速)</option>
+            <option value="gemini" selected>Gemini 雲端語音 (高品質)</option>
+          </select>
+          <button id="btn-set-api-key" class="btn-small" style="margin-left: 8px; background-color:#ff9800;">🔑 設定 API Key</button>
+          <button id="btn-test-api" class="btn-small" style="margin-left: 8px;">🔄 測試 API</button>
+          <span id="api-status-text" style="font-size: 12px; margin-left: 8px; color: #666;">等待測試...</span>
+        </label>
+        
+        <label class="setting-item">口音：
+          <select id="accent-select">
+            <option value="en-US">美式 (US)</option>
+            <option value="en-GB">英式 (UK)</option>
+          </select>
+        </label>
+        
+        <label class="setting-item">語速：
+          <input type="range" id="rate-slider" min="0.5" max="1.5" step="0.1" value="1">
+          <span id="rate-display">1.0x</span>
+        </label>
+      </div>
+      
+      <div class="unit-selection">
+        <strong>選擇範圍：</strong>
+        <label><input type="checkbox" class="unit-checkbox" value="U1" checked> Unit 1 (戶外活動)</label>
+        <label><input type="checkbox" class="unit-checkbox" value="U2" checked> Unit 2 (海陸生物)</label>
+        <button id="btn-next-word" class="btn-voice" style="margin-left: auto;">⏭️ 下一題</button>
+      </div>
+      <div style="font-size:12px; color:#888; margin-top:8px;">
+        🔒 安全提示：API Key 只存在你的瀏覽器 localStorage，不會上傳到 GitHub。發佈前請確認 app.js 沒有寫死 KEY。
+      </div>
+    </div>
+
+    <div class="card" id="word-card">
+      <div class="responsive-layout">
+        
+        <div class="visual-column">
+          <div class="unit-badge" id="word-unit-badge">Unit ...</div>
+          <div class="word-header">
+            <h2 id="word-title">Loading...</h2>
+            <button id="btn-speak-word" class="btn-voice">🔊 聽發音</button>
+          </div>
+          <p class="translation" id="word-translation"></p>
+        </div>
+
+        <div class="content-column">
+          <div class="section">
+            <h3>教材例句</h3>
+            <p id="word-example" class="en-text"></p>
+            <p id="word-example-cn" class="cn-text"></p>
+            <button id="btn-speak-example" class="btn-voice">🔊 朗讀例句</button>
+          </div>
+
+          <div class="section" id="grammar-section">
+            <h3>文法重點</h3>
+            <div id="grammar-box" class="grammar-box">
+              <strong id="grammar-title"></strong>
+              <p id="grammar-content" class="en-text"></p>
+              <p id="grammar-note" class="note-text"></p>
+              <button id="btn-speak-grammar" class="btn-small">🔊 文法例句發音</button>
+            </div>
+          </div>
+
+          <div class="section quiz-section">
+            <h3>情境問答 (依單字庫 & 文法庫變化)</h3>
+            <div class="quiz-box" id="quiz-box">
+              <div class="quiz-question-row">
+                <div>
+                  <p id="quiz-question-en" class="en-text" style="font-size:20px; font-weight:bold; margin:0 0 4px 0;"></p>
+                  <p id="quiz-question-cn" class="cn-text" style="font-size:13px; color:#888; margin:0;"></p>
+                </div>
+                <button id="btn-speak-quiz" class="btn-small">🔊 聽問句</button>
+              </div>
+              <div id="quiz-hint" class="hint-box"></div>
+              <div id="quiz-expected" style="display:none;"></div>
+            </div>
+            <div id="quiz-feedback" style="margin-top:12px;"></div>
+          </div>
+
+          <div class="section chat-section">
+            <h3>語音回答 (AI 嚴格判分 - 中英對照)</h3>
+            <div class="chat-controls">
+              <button id="btn-record" class="btn-record">🎙️ 點選回答</button>
+              <span id="record-status">等待指令...</span>
+            </div>
+            <div class="chat-log" id="chat-log"></div>
+          </div>
+
+          <div class="section log-section" style="margin-top: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <h3 style="margin: 0;">📋 系統連線紀錄 (LOG)</h3>
+              <button id="btn-clear-log" class="btn-small" style="background-color: #757575;">清除紀錄</button>
+            </div>
+            <div id="system-log-box" style="background: #1e1e1e; color: #00ff66; padding: 10px; border-radius: 6px; height: 120px; overflow-y: auto; font-family: monospace; font-size: 12px; line-height: 1.4;">
+              [System] 系統初始化完成，等待操作...
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
