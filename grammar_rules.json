@@ -1,0 +1,1341 @@
+{
+  "textbook": "Oxford Grade 4 LevelUp",
+  "units": {
+    "U1": {
+      "name": "Fun Outdoors",
+      "wordCount": 31,
+      "coreGrammar": [
+        "Gerund",
+        "Likes and Abilities",
+        "Imperative and Safety"
+      ],
+      "detailedRules": [
+        {
+          "title": "Do/Does 疑問句",
+          "content": "Yes, she likes it a lot.",
+          "note": "詢問特定喜好使用 Does。",
+          "count": 1,
+          "words": [
+            "canoe"
+          ],
+          "examples": [
+            "Does she like canoeing?"
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "一般疑問句",
+          "content": "No, she's not very good at it.",
+          "note": "使用 Is/Are 詢問專長。",
+          "count": 1,
+          "words": [
+            "surf"
+          ],
+          "examples": [
+            "Is she good at surfing?"
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "介系詞片語",
+          "content": "be good at + V-ing",
+          "note": "at 是介系詞，後面接名詞或動名詞。",
+          "count": 1,
+          "words": [
+            "be good at"
+          ],
+          "examples": [
+            "I am good at fishing."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞",
+          "content": "fish 變成 fishing",
+          "note": "直接在字尾加上 -ing。",
+          "count": 1,
+          "words": [
+            "fish"
+          ],
+          "examples": [
+            "My dad and I like fishing."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞",
+          "content": "grill 變成 grilling",
+          "note": "直接在字尾加上 -ing。",
+          "count": 1,
+          "words": [
+            "grill hamburgers"
+          ],
+          "examples": [
+            "We like grilling hamburgers."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞",
+          "content": "watch 變成 watching",
+          "note": "直接在字尾加上 -ing。",
+          "count": 1,
+          "words": [
+            "watch birds"
+          ],
+          "examples": [
+            "She likes watching birds."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞與喜好",
+          "content": "What does he like doing? He likes climbing.",
+          "note": "動詞後加上 -ing 變為動名詞。",
+          "count": 1,
+          "words": [
+            "climb"
+          ],
+          "examples": [
+            "He likes climbing trees."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "hike 變成 hiking",
+          "note": "字尾為 e 的動詞，去掉 e 再加 -ing。",
+          "count": 1,
+          "words": [
+            "hike"
+          ],
+          "examples": [
+            "They like hiking up the hill."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "ice-skate 變成 ice-skating",
+          "note": "去掉字尾 e 再加 -ing。",
+          "count": 1,
+          "words": [
+            "ice-skate"
+          ],
+          "examples": [
+            "Are you good at ice-skating?"
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "in-line skate 變成 in-line skating",
+          "note": "去掉字尾 e 再加 -ing。",
+          "count": 1,
+          "words": [
+            "in-line skate"
+          ],
+          "examples": [
+            "He likes in-line skating."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "swim 變成 swimming",
+          "note": "短母音+單子音，重複字尾 m 加 ing。",
+          "count": 1,
+          "words": [
+            "swim"
+          ],
+          "examples": [
+            "He likes swimming."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "run 變成 running",
+          "note": "短母音+單子音，重複字尾 n 加 ing。",
+          "count": 1,
+          "words": [
+            "run"
+          ],
+          "examples": [
+            "She likes running."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "dance 變成 dancing",
+          "note": "去掉字尾 e 再加 -ing。",
+          "count": 1,
+          "words": [
+            "dance"
+          ],
+          "examples": [
+            "They like dancing."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "cook 變成 cooking",
+          "note": "一般動詞直接加 -ing。",
+          "count": 1,
+          "words": [
+            "cook"
+          ],
+          "examples": [
+            "I like cooking."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "sing 變成 singing",
+          "note": "一般動詞直接加 -ing。",
+          "count": 1,
+          "words": [
+            "sing"
+          ],
+          "examples": [
+            "We are good at singing."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "read 變成 reading",
+          "note": "一般動詞直接加 -ing。",
+          "count": 1,
+          "words": [
+            "read"
+          ],
+          "examples": [
+            "He is good at reading."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動名詞變化",
+          "content": "draw 變成 drawing",
+          "note": "一般動詞直接加 -ing。",
+          "count": 1,
+          "words": [
+            "draw"
+          ],
+          "examples": [
+            "She is good at drawing."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動詞片語",
+          "content": "ride in the car",
+          "note": "表示乘坐汽車的動作。",
+          "count": 1,
+          "words": [
+            "ride in the car"
+          ],
+          "examples": [
+            "We ride in the car to the park."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "動詞與名詞",
+          "content": "have rules",
+          "note": "rules 是可數名詞複數。",
+          "count": 1,
+          "words": [
+            "have rules"
+          ],
+          "examples": [
+            "Games have rules."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "地方副詞",
+          "content": "on the beach",
+          "note": "on 用於開放的表面。",
+          "count": 1,
+          "words": [
+            "play on the beach"
+          ],
+          "examples": [
+            "They like playing on the beach."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "安全提醒",
+          "content": "Always put on sunscreen.",
+          "note": "原形動詞開頭表示命令或建議。",
+          "count": 1,
+          "words": [
+            "put on sunscreen"
+          ],
+          "examples": [
+            "Always put on sunscreen."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "感嘆祈使句",
+          "content": "Watch out!",
+          "note": "用於緊急提醒。",
+          "count": 1,
+          "words": [
+            "watch out"
+          ],
+          "examples": [
+            "Watch out for the rocks!"
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "時間副詞子句",
+          "content": "When you go snowboarding...",
+          "note": "When 帶出時間點，後接祈使句。",
+          "count": 1,
+          "words": [
+            "wear a helmet"
+          ],
+          "examples": [
+            "When you go snowboarding, always wear a helmet."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "時間副詞子句",
+          "content": "When you go canoeing...",
+          "note": "提醒安全規則。",
+          "count": 1,
+          "words": [
+            "wear a life jacket"
+          ],
+          "examples": [
+            "When you go canoeing, wear a life jacket."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "時間副詞子句",
+          "content": "When you ride in the car...",
+          "note": "確保乘車安全。",
+          "count": 1,
+          "words": [
+            "fasten your seatbelt"
+          ],
+          "examples": [
+            "When you ride in the car, fasten your seatbelt."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "祈使句",
+          "content": "Be careful.",
+          "note": "Be 動詞的祈使句保持原形。",
+          "count": 1,
+          "words": [
+            "be careful"
+          ],
+          "examples": [
+            "Be careful on the ice."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "祈使句",
+          "content": "Be safe.",
+          "note": "safe 是形容詞，前面需加上 Be 動詞。",
+          "count": 1,
+          "words": [
+            "be safe"
+          ],
+          "examples": [
+            "Be safe outdoors."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "祈使句否定",
+          "content": "Don't + 原形動詞",
+          "note": "用於安撫或勸告。",
+          "count": 1,
+          "words": [
+            "don't worry"
+          ],
+          "examples": [
+            "Don't worry, be happy."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "表達專長",
+          "content": "Yes, he's very good at it.",
+          "note": "be good at 加上動名詞。",
+          "count": 1,
+          "words": [
+            "ski"
+          ],
+          "examples": [
+            "Is he good at skiing?"
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "表達專長",
+          "content": "He is good at skateboarding.",
+          "note": "be good at 加上動名詞。",
+          "count": 1,
+          "words": [
+            "skateboard"
+          ],
+          "examples": [
+            "He is good at skateboarding."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        },
+        {
+          "title": "表達專長 (否定)",
+          "content": "She isn't good at snowboarding.",
+          "note": "be 動詞後加 not。",
+          "count": 1,
+          "words": [
+            "snowboard"
+          ],
+          "examples": [
+            "She isn't good at snowboarding."
+          ],
+          "units": [
+            "Unit 1: Fun Outdoors"
+          ]
+        }
+      ]
+    },
+    "U2": {
+      "name": "Land and Sea",
+      "wordCount": 53,
+      "coreGrammar": [
+        "Plural Nouns",
+        "Articles",
+        "Comparative",
+        "Superlative",
+        "As...As",
+        "Questions"
+      ],
+      "detailedRules": [
+        {
+          "title": "不規則複數",
+          "content": "bacteria",
+          "note": "bacteria 本身即為複數形式 (單數為 bacterium)。",
+          "count": 1,
+          "words": [
+            "bacteria"
+          ],
+          "examples": [
+            "It has bad bacteria in its mouth."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "不規則變化",
+          "content": "child -> children",
+          "note": "不加 s。",
+          "count": 1,
+          "words": [
+            "Grammar: Irregular Plurals"
+          ],
+          "examples": [
+            "One child, two children."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "介系詞",
+          "content": "in the ground",
+          "note": "在土地裡用 in。",
+          "count": 1,
+          "words": [
+            "ground"
+          ],
+          "examples": [
+            "They sleep in holes in the ground."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "介系詞片語",
+          "content": "at work",
+          "note": "固定搭配用法。",
+          "count": 1,
+          "words": [
+            "at work"
+          ],
+          "examples": [
+            "My dad is at work."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "例外與不規則變化",
+          "content": "good -> better",
+          "note": "個別記憶。",
+          "count": 1,
+          "words": [
+            "Grammar: Irregular Adjectives"
+          ],
+          "examples": [
+            "Good, better, best."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "冠詞用法",
+          "content": "an insect",
+          "note": "母音開頭，前面用 an。",
+          "count": 1,
+          "words": [
+            "insect"
+          ],
+          "examples": [
+            "A bee is an insect."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "冠詞用法規則",
+          "content": "We use a/an with singular nouns.",
+          "note": "子音開頭用 a，母音開頭用 an。",
+          "count": 1,
+          "words": [
+            "Grammar: Articles (冠詞)"
+          ],
+          "examples": [
+            "I saw a lion and an elephant. The lion was scary."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "冠詞與發音",
+          "content": "an island",
+          "note": "s 不發音，母音開頭用 an。",
+          "count": 1,
+          "words": [
+            "island"
+          ],
+          "examples": [
+            "They live on an island."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "動詞用法",
+          "content": "weigh",
+          "note": "注意與名詞 weight 區分。",
+          "count": 1,
+          "words": [
+            "weigh"
+          ],
+          "examples": [
+            "I weigh the apple."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "反問句型",
+          "content": "What about...",
+          "note": "用來針對同樣的問題詢問不同的對象。",
+          "count": 1,
+          "words": [
+            "what about"
+          ],
+          "examples": [
+            "What about the crab?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "可數名詞",
+          "content": "crocodiles",
+          "note": "複數直接加 s。",
+          "count": 1,
+          "words": [
+            "crocodile"
+          ],
+          "examples": [
+            "The crocodile has sharp teeth."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "可數名詞",
+          "content": "distances",
+          "note": "複數直接加 s。",
+          "count": 1,
+          "words": [
+            "distance"
+          ],
+          "examples": [
+            "They can walk long distances."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "同級比較",
+          "content": "Is the eel as long as...?",
+          "note": "詢問兩者是否一樣長。",
+          "count": 1,
+          "words": [
+            "eel"
+          ],
+          "examples": [
+            "Is the eel as long as the seal?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "同級比較",
+          "content": "as dangerous as",
+          "note": "使用 as + 原級 + as。",
+          "count": 1,
+          "words": [
+            "shark"
+          ],
+          "examples": [
+            "The shark is as dangerous as the crocodile."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "同級比較否定",
+          "content": "isn't as big as",
+          "note": "使用 isn't as + 原級 + as。",
+          "count": 1,
+          "words": [
+            "panda"
+          ],
+          "examples": [
+            "The panda isn't as big as the hippo."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "同級比較否定",
+          "content": "isn't as long as",
+          "note": "表示沒有和...一樣長。",
+          "count": 1,
+          "words": [
+            "seal"
+          ],
+          "examples": [
+            "The seal isn't as long as the whale."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞字尾 f 或 fe",
+          "content": "Replace 'f' or 'fe' with 'ves'",
+          "note": "字尾為 f 或 fe 時，去掉並加上 -ves。",
+          "count": 1,
+          "words": [
+            "Grammar: Plural Nouns"
+          ],
+          "examples": [
+            "One wolf, two wolves."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞片語",
+          "content": "forked tongue",
+          "note": "用形容詞 forked 修飾 tongue。",
+          "count": 1,
+          "words": [
+            "forked tongue"
+          ],
+          "examples": [
+            "It has a long forked tongue."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞用法",
+          "content": "weight",
+          "note": "不可數名詞。",
+          "count": 1,
+          "words": [
+            "weight"
+          ],
+          "examples": [
+            "What is its weight?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞用法",
+          "content": "length",
+          "note": "long 的名詞形態。",
+          "count": 1,
+          "words": [
+            "length"
+          ],
+          "examples": [
+            "Measure the length."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞用法",
+          "content": "a male",
+          "note": "作為名詞代表雄性動物。",
+          "count": 1,
+          "words": [
+            "male"
+          ],
+          "examples": [
+            "They don't need a male."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "butterflies",
+          "note": "子音+y 結尾，去 y 加 ies。",
+          "count": 1,
+          "words": [
+            "butterfly"
+          ],
+          "examples": [
+            "The butterfly is smaller than the bird."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "octopuses",
+          "note": "字尾 s 加 es。",
+          "count": 1,
+          "words": [
+            "octopus"
+          ],
+          "examples": [
+            "The octopus is very heavy."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "kilograms",
+          "note": "大於 1 時要加 s。",
+          "count": 1,
+          "words": [
+            "kilogram (kg)"
+          ],
+          "examples": [
+            "It weighs 5 kilograms."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "grams",
+          "note": "大於 1 時要加 s。",
+          "count": 1,
+          "words": [
+            "gram (g)"
+          ],
+          "examples": [
+            "1 kilogram is 1000 grams."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "meters",
+          "note": "大於 1 時要加 s。",
+          "count": 1,
+          "words": [
+            "meter (m)"
+          ],
+          "examples": [
+            "It is 3 meters long."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "名詞複數",
+          "content": "centimeters",
+          "note": "大於 1 時要加 s。",
+          "count": 1,
+          "words": [
+            "centimeter (cm)"
+          ],
+          "examples": [
+            "1 meter is 100 centimeters."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "地方介系詞",
+          "content": "at the aquarium",
+          "note": "at 用於特定的地點。",
+          "count": 1,
+          "words": [
+            "aquarium"
+          ],
+          "examples": [
+            "We are at the aquarium."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "地方介系詞",
+          "content": "in Indonesia",
+          "note": "國家或大地方前用 in。",
+          "count": 1,
+          "words": [
+            "Indonesia"
+          ],
+          "examples": [
+            "Komodo dragons live in Indonesia."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "多音節形容詞",
+          "content": "more + adjective",
+          "note": "前方加 more。",
+          "count": 1,
+          "words": [
+            "Grammar: Comparatives"
+          ],
+          "examples": [
+            "Expensive becomes more expensive."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "專有名詞",
+          "content": "Komodo",
+          "note": "字首大寫。",
+          "count": 1,
+          "words": [
+            "Komodo dragon"
+          ],
+          "examples": [
+            "The Komodo dragon is dangerous."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "專有名詞",
+          "content": "Pacific",
+          "note": "地名首字母大寫。",
+          "count": 1,
+          "words": [
+            "giant Pacific octopus"
+          ],
+          "examples": [
+            "The giant Pacific octopus is smart."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "專有名詞",
+          "content": "parthenogenesis",
+          "note": "科學名詞，通常作不可數使用。",
+          "count": 1,
+          "words": [
+            "parthenogenesis"
+          ],
+          "examples": [
+            "This is called parthenogenesis."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "形容詞用法",
+          "content": "rough skin",
+          "note": "形容詞放在名詞前面修飾。",
+          "count": 1,
+          "words": [
+            "rough"
+          ],
+          "examples": [
+            "Komodo dragons have rough skin."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "形容詞用法",
+          "content": "thick scales",
+          "note": "形容詞放在名詞前面修飾。",
+          "count": 1,
+          "words": [
+            "thick"
+          ],
+          "examples": [
+            "They have thick scales."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "形容詞用法",
+          "content": "a female dragon",
+          "note": "用來標示動物的性別。",
+          "count": 1,
+          "words": [
+            "female"
+          ],
+          "examples": [
+            "A female dragon lays eggs."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "最高級",
+          "content": "the longest",
+          "note": "單音節加 the ... -est。",
+          "count": 1,
+          "words": [
+            "whale"
+          ],
+          "examples": [
+            "The whale is the longest."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "最高級句型",
+          "content": "the biggest",
+          "note": "最高級前面必須加上定冠詞 the。",
+          "count": 1,
+          "words": [
+            "gorilla"
+          ],
+          "examples": [
+            "The gorilla is the biggest."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "最高級疑問",
+          "content": "Which one is the smallest?",
+          "note": "用 Which 詢問哪一個。",
+          "count": 1,
+          "words": [
+            "caterpillar"
+          ],
+          "examples": [
+            "The caterpillar is the smallest."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "比較級",
+          "content": "faster than",
+          "note": "一般單音節加 -er。",
+          "count": 1,
+          "words": [
+            "bee"
+          ],
+          "examples": [
+            "The bee is faster than the caterpillar."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "比較級",
+          "content": "smarter than",
+          "note": "單音節加 -er。",
+          "count": 1,
+          "words": [
+            "dolphin"
+          ],
+          "examples": [
+            "The dolphin is smarter than the shark."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "比較級",
+          "content": "faster than",
+          "note": "比較兩者特徵。",
+          "count": 1,
+          "words": [
+            "squid"
+          ],
+          "examples": [
+            "The squid is faster than the crab."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "比較級句型",
+          "content": "bigger than",
+          "note": "big 需重複字尾 g 再加 -er。",
+          "count": 1,
+          "words": [
+            "hippopotamus (hippo)"
+          ],
+          "examples": [
+            "The hippopotamus is bigger than the panda."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "疑問詞",
+          "content": "Which one...",
+          "note": "用來詢問特定群體中的哪一個。",
+          "count": 1,
+          "words": [
+            "which one"
+          ],
+          "examples": [
+            "Which one is the biggest?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "疑問詞",
+          "content": "How much...",
+          "note": "詢問重量或不可數名詞的數量。",
+          "count": 1,
+          "words": [
+            "how much"
+          ],
+          "examples": [
+            "How much does it weigh?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "疑問詞",
+          "content": "How long...",
+          "note": "詢問時間或物品的長度。",
+          "count": 1,
+          "words": [
+            "how long"
+          ],
+          "examples": [
+            "How long is it?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "複合名詞",
+          "content": "goliath beetle",
+          "note": "由兩個單字組成的名詞。",
+          "count": 1,
+          "words": [
+            "goliath beetle"
+          ],
+          "examples": [
+            "The goliath beetle is big."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "複合名詞",
+          "content": "spider crab",
+          "note": "由兩個單字組成的名詞。",
+          "count": 1,
+          "words": [
+            "spider crab"
+          ],
+          "examples": [
+            "The spider crab has long legs."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "複數名詞",
+          "content": "scales",
+          "note": "通常以複數形態出現。",
+          "count": 1,
+          "words": [
+            "scales"
+          ],
+          "examples": [
+            "Fish and reptiles have scales."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "詢問重量",
+          "content": "How much does...weigh?",
+          "note": "weigh 是動詞。",
+          "count": 1,
+          "words": [
+            "beetle"
+          ],
+          "examples": [
+            "How much does the beetle weigh?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "詢問長度",
+          "content": "How long is...?",
+          "note": "How long 詢問長度。",
+          "count": 1,
+          "words": [
+            "lizard"
+          ],
+          "examples": [
+            "How long is the lizard?"
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "重量單位",
+          "content": "grams",
+          "note": "超過 1 公克加 s。",
+          "count": 1,
+          "words": [
+            "crab"
+          ],
+          "examples": [
+            "The crab weighs 500 grams."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        },
+        {
+          "title": "雙音節且 -y 結尾",
+          "content": "Drop -y and add -ier",
+          "note": "去 y 加 ier。",
+          "count": 1,
+          "words": [
+            "Grammar: Comparatives"
+          ],
+          "examples": [
+            "Pretty becomes prettier."
+          ],
+          "units": [
+            "Unit 2: Land and Sea"
+          ]
+        }
+      ]
+    }
+  },
+  "commonMistakes": {
+    "gerund": [
+      "Missing -ing: likes climb",
+      "Subject-verb: He like climbing",
+      "e rule: hikeing instead of hiking",
+      "double consonant: swiming"
+    ],
+    "plural": [
+      "wolf -> wolfs (should wolves)",
+      "butterfly -> butterflys (should butterflies)",
+      "child -> childs (should children)",
+      "Missing s: two wolf"
+    ],
+    "comparative": [
+      "more bigger (double)",
+      "big than (missing -er)",
+      "most bigger",
+      "than vs as confusion"
+    ],
+    "article": [
+      "a insect (should an)",
+      "an bee (should a)"
+    ],
+    "asAs": [
+      "as dangerous than (should as)",
+      "is as big than"
+    ]
+  },
+  "aiPromptRules": {
+    "vocabLock": "MUST ONLY use words from allowed list (84 words + function words)",
+    "questionTypes": [
+      "fill-in-the-blank",
+      "Wh-question",
+      "Is/Are/Do/Does question"
+    ],
+    "distractorDesign": "3 distractors must be grammatically wrong but plausible, targeting Grade 4 common mistakes",
+    "returnFormat": "JSON with questionEn, questionCn, options[4], correctIndex, explanationEn, explanationCn, grammarPoint, hintCn",
+    "examples": [
+      {
+        "grammar": "Gerund",
+        "q": "What does he like doing?",
+        "options": [
+          "He likes climb trees.",
+          "He likes climbing trees.",
+          "He like climbing trees.",
+          "He likes climbing tree."
+        ],
+        "correct": 1
+      }
+    ]
+  }
+}

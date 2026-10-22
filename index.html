@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="format-detection" content="telephone=no">
+  <title>英語單字互動教學 - Learn English Fun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- 背景裝飾 -->
+  <div class="bg-decoration">
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="logo-area">
+          <div class="logo-icon">📚</div>
+          <div class="logo-text">
+            <h1>英語互動學習網</h1>
+            <p>Learn English with Fun & Interaction</p>
+          </div>
+        </div>
+        <div class="header-stats">
+          <div class="stat-badge">
+            <span class="stat-icon">🎯</span>
+            <span>84 詞彙</span>
+          </div>
+          <div class="stat-badge">
+            <span class="stat-icon">✨</span>
+            <span>AI 助教</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- iPhone 音訊啟用橫幅 -->
+    <div id="ios-audio-banner" class="ios-banner" style="display:none;">
+      <div class="ios-banner-icon">📱</div>
+      <div class="ios-banner-content">
+        <strong>iPhone / iPad 用戶</strong>
+        <span>Safari 會阻擋自動播放，請先點擊啟用語音</span>
+      </div>
+      <button id="btn-enable-audio" class="btn btn-warning">🔓 啟用語音</button>
+      <div id="audio-status" class="audio-status"></div>
+    </div>
+
+    <!-- 控制面板 -->
+    <section class="control-panel">
+      <div class="control-row">
+        <div class="control-group">
+          <label class="control-label">
+            <span class="label-icon">🎙️</span>
+            語音引擎
+          </label>
+          <select id="tts-engine-select" class="select-styled">
+            <option value="local">內建語音 (免費/快速)</option>
+            <option value="gemini" selected>Gemini 雲端 (高品質)</option>
+          </select>
+        </div>
+        
+        <div class="control-group">
+          <label class="control-label">
+            <span class="label-icon">🗣️</span>
+            口音
+          </label>
+          <select id="accent-select" class="select-styled">
+            <option value="en-US">美式 US</option>
+            <option value="en-GB">英式 UK</option>
+          </select>
+        </div>
+
+        <div class="control-group slider-group">
+          <label class="control-label">
+            <span class="label-icon">⏩</span>
+            語速 <span id="rate-display" class="rate-badge">1.0x</span>
+          </label>
+          <input type="range" id="rate-slider" min="0.5" max="1.5" step="0.1" value="1" class="slider-styled">
+        </div>
+
+        <div class="control-actions">
+          <button id="btn-set-api-key" class="btn btn-secondary btn-sm">🔑 API Key</button>
+          <button id="btn-test-api" class="btn btn-ghost btn-sm">🔄 測試</button>
+          <span id="api-status-text" class="api-status">等待測試...</span>
+        </div>
+      </div>
+
+      <div class="unit-row">
+        <div class="unit-selector">
+          <span class="unit-title">📖 選擇範圍：</span>
+          <label class="checkbox-card">
+            <input type="checkbox" class="unit-checkbox" value="U1" checked>
+            <span class="checkmark"></span>
+            <span class="unit-label">Unit 1 <small>戶外活動</small></span>
+          </label>
+          <label class="checkbox-card">
+            <input type="checkbox" class="unit-checkbox" value="U2" checked>
+            <span class="checkmark"></span>
+            <span class="unit-label">Unit 2 <small>海陸生物</small></span>
+          </label>
+        </div>
+        <button id="btn-next-word" class="btn btn-primary btn-next">
+          <span>下一題</span>
+          <span class="btn-icon">⏭️</span>
+        </button>
+      </div>
+      
+      <div class="panel-footer">
+        <span>📱 iPhone / iPad / Windows 自適應</span>
+        <span class="dot">•</span>
+        <span>🔒 API Key 僅存於瀏覽器</span>
+      </div>
+    </section>
+
+    <!-- 主要學習區 -->
+    <main class="main-grid">
+      <!-- 左側：單字卡 -->
+      <section class="word-section">
+        <div class="card word-card" id="word-card">
+          <div class="card-header">
+            <div class="unit-badge" id="word-unit-badge">Unit ...</div>
+            <div class="word-meta">
+              <span class="meta-dot"></span>
+              <span>教材單字</span>
+            </div>
+          </div>
+          
+          <div class="word-main">
+            <h2 id="word-title" class="word-title">Loading...</h2>
+            <p class="translation" id="word-translation"></p>
+            <button id="btn-speak-word" class="btn btn-primary btn-speak">
+              <span class="speak-icon">🔊</span>
+              <span>聽發音</span>
+            </button>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="section example-section">
+            <div class="section-header">
+              <h3><span class="section-icon">💬</span> 教材例句</h3>
+            </div>
+            <div class="example-content">
+              <p id="word-example" class="en-text"></p>
+              <p id="word-example-cn" class="cn-text"></p>
+              <button id="btn-speak-example" class="btn btn-outline btn-sm">
+                🔊 朗讀例句
+              </button>
+            </div>
+          </div>
+
+          <div class="section grammar-section" id="grammar-section">
+            <div class="section-header">
+              <h3><span class="section-icon">📝</span> 文法重點</h3>
+            </div>
+            <div id="grammar-box" class="grammar-box">
+              <strong id="grammar-title" class="grammar-title"></strong>
+              <p id="grammar-content" class="en-text"></p>
+              <p id="grammar-note" class="note-text"></p>
+              <button id="btn-speak-grammar" class="btn btn-ghost btn-sm">🔊 文法發音</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 右側：問答區 -->
+      <section class="quiz-section-wrapper">
+        <div class="card quiz-card">
+          <div class="quiz-card-header">
+            <div class="quiz-title-area">
+              <h3>情境問答</h3>
+              <span class="quiz-subtitle">依單字庫 & 文法庫變化</span>
+            </div>
+            <div class="mode-switch" id="mode-switch">
+              <button id="btn-mode-choice" class="mode-btn active">
+                <span class="mode-icon">📝</span> 選擇題
+              </button>
+              <button id="btn-mode-dialogue" class="mode-btn">
+                <span class="mode-icon">🎙️</span> 對答
+              </button>
+              <div class="mode-indicator"></div>
+            </div>
+          </div>
+
+          <div class="quiz-box" id="quiz-box">
+            <div class="quiz-question-row">
+              <div class="quiz-question-text">
+                <p id="quiz-question-en" class="en-text question-en"></p>
+                <p id="quiz-question-cn" class="cn-text question-cn"></p>
+              </div>
+              <button id="btn-speak-quiz" class="btn btn-icon-only" title="聽問句">
+                🔊
+              </button>
+            </div>
+            <div id="quiz-hint" class="hint-box"></div>
+            <div id="quiz-expected" style="display:none;"></div>
+          </div>
+
+          <div id="choice-container" class="choice-container">
+            <div id="choice-options" class="choice-options"></div>
+            <div class="choice-info">
+              <span class="info-icon">✨</span>
+              選項皆來自你的 U1/U2 題庫，點 🔊 可單獨聽發音
+            </div>
+          </div>
+
+          <div id="dialogue-container" class="dialogue-container" style="display:none;">
+            <div class="chat-controls">
+              <button id="btn-record" class="btn btn-record">
+                <span class="record-icon">🎙️</span>
+                <span>點選回答</span>
+                <span class="record-pulse"></span>
+              </button>
+              <span id="record-status" class="record-status">等待指令...</span>
+            </div>
+            <div class="chat-log" id="chat-log"></div>
+          </div>
+
+          <div id="quiz-feedback" class="quiz-feedback"></div>
+        </div>
+
+        <!-- 系統紀錄 -->
+        <details class="log-card">
+          <summary class="log-header">
+            <h3>📋 系統連線紀錄</h3>
+            <button id="btn-clear-log" class="btn btn-ghost btn-xs">清除</button>
+          </summary>
+          <div id="system-log-box" class="log-box"></div>
+        </details>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>© 2025 英語互動學習網 | 為 iPhone / iPad / Windows 優化 | Made with 💜</p>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
